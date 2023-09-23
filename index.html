@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./style/about-section.css">
-    <link rel="stylesheet" href="./style/buttons.css">
-    <link rel="stylesheet" href="./style/contact.css">
-    <link rel="stylesheet" href="./style/desktop-nav.css">
-    <link rel="stylesheet" href="./style/experience-section.css">
-    <link rel="stylesheet" href="./style/footer-section.css">
-    <link rel="stylesheet" href="./style/hamburguer-menu.css">
-    <link rel="stylesheet" href="./style/icon.css">    
-    <link rel="stylesheet" href="./style/profile-section.css">
-    <link rel="stylesheet" href="./style/project-section.css">
-    <link rel="stylesheet" href="./style/root.css">
-    <link rel="stylesheet" href="./style/sections.css">
-    <link rel="stylesheet" href="./style/mediaqueries.css">
+    <link rel="stylesheet" href="./style/about-section.css" />
+    <link rel="stylesheet" href="./style/buttons.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
+    <link rel="stylesheet" href="./style/desktop-nav.css" />
+    <link rel="stylesheet" href="./style/experience-section.css" />
+    <link rel="stylesheet" href="./style/footer-section.css" />
+    <link rel="stylesheet" href="./style/hamburguer-menu.css" />
+    <link rel="stylesheet" href="./style/icon.css" />
+    <link rel="stylesheet" href="./style/profile-section.css" />
+    <link rel="stylesheet" href="./style/project-section.css" />
+    <link rel="stylesheet" href="./style/root.css" />
+    <link rel="stylesheet" href="./style/sections.css" />
+    <link rel="stylesheet" href="./style/mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -49,7 +49,10 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic-3.jpg" alt="Santiago Rivas profile picture" />
+        <img
+          src="./assets/profile-pic-3.jpg"
+          alt="Santiago Rivas profile picture"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -58,7 +61,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/resume.pdf')"
           >
             Download CV
           </button>
@@ -67,18 +70,21 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/sanrivalina/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
+          <a href="https://www.linkedin.com/in/sanrivalina/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+
+          <a href="https://github.com/Sanrivalin" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a>
         </div>
       </div>
     </section>
@@ -102,7 +108,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
+              <p>1+ year <br />Frontend Development</p>
             </div>
             <div class="details-container">
               <img
@@ -111,17 +117,23 @@
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>
+                Systems Engineering Bachelors Degree<br />Technology in software
+                development and networks<br />Technology degree
+              </p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Experienced systems engineer proficient in English at a C1 level,
+              driven by a deep enthusiasm for web development and possessing a
+              solid background in problem-solving and critical thinking. I am
+              actively pursuing a transition into a junior web developer role to
+              realign my career path and harness my expertise in systems
+              analysis and design. Known for my aptitude as a fast learner and
+              collaborative team player, I am highly confident in my ability to
+              deliver substantial value to your organization while honing my
+              coding and web development skills.
             </p>
           </div>
         </div>
@@ -272,76 +284,73 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Project one -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/project-1.1.png"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Project One</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+              <a
+                href="https://github.com/Sanrivalin/rickandmorty"
+                target="_blank"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+
+              <a
+                href="https://rickandmorty-psi-flame.vercel.app/"
+                target="_blank"
               >
-                Live Demo
-              </button>
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
             </div>
           </div>
+          <!-- Project Two -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
+                src="./assets/project-2.1.png"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+              <a
+                href="https://github.com/Sanrivalin/https---github.com-Sanrivalin-React1/tree/master"
+                target="_blank"
               >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+
+              <a href="https://org-sepia-alpha.vercel.app/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
             </div>
           </div>
+          <!-- Project Three-->
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/project-3.1.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
             <h2 class="experience-sub-title project-title">Project Three</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+              <a href="https://github.com/Sanrivalin/allsafe2" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+
+              <a href="https://allsafe2.vercel.app/" target="_blank">
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
             </div>
           </div>
         </div>
@@ -363,15 +372,25 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p>
+            <a href="mailto:santiagorivasmolina@gmail.com"
+              >santiagorivasmolina@gmail.com</a
+            >
+          </p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <a href="https://www.linkedin.com/in/sanrivalina/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+          </a>
+          <p>
+            <a href="https://www.linkedin.com/in/sanrivalina/" target="_blank"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
